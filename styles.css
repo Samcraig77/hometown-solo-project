@@ -1,3 +1,4 @@
+
 :root {
     --hero-font1: #2B633B;
     --activities-background: #343242;
@@ -10,7 +11,7 @@
 }
 
 
-
+/*Used to make divs stand out more: delete before submitting*/
 div {
  border: 1px solid red;   
 }
@@ -22,7 +23,7 @@ body {
     font-family: 'Dosis', sans-serif;
     background-color: #ECE9E9;
     color: var(--hero-font1);
-    text-align: center;
+    
     
 }
 
@@ -33,13 +34,20 @@ body {
 }
 
 .welcome-text {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-top: 20px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.hero-text hr {
+   border: 2px solid; 
 }
 
 .welcome-sub-text {
     padding: 40px;
+    margin: auto;
+    text-align: center;
 }
 
 .hero-photo {
@@ -49,39 +57,76 @@ object-fit: cover;
 border: 5px solid #727272;
 
 }
-
+/*Activities section*/
 .activities {
     display: flex;
-    flex-grow: inherit;
+    
     justify-content: space-around;
     background-color: var(--activities-background);
     color: var(--activities-font1);
-    padding-top: 30px;
-    flex-wrap: wrap;
+    padding: 30px;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
+    
     
 }
 
+.activities p {
+    text-align: center;
+}
+
+
 
 .activity-1, .activity-2 {
-    width: 30%;
+    width: 33%;
     border-right: 1px solid white;
     padding-right: 20px;
 }
 
 .activity-2 p {
-    margin: 20px 50px 20px 20px;
+    margin: auto;
 }
-
 .activity-1 img, .activity-2 img, .activity-3 img {
     width: 400px;
     height: 300px;
-    object-fit: fill;
+    display: flex;
+    margin: auto;
+    
 }
 
-.card-section {
+#photo-div {
+    display: flex;
+    justify-items: center;
+}
+
+/*Guide card section--->*/
+
+.card {
+    display: flex;
+}
+
+#card-section {
+    display: flex;
     height: 500px;
     background-color: var(--card-section-background);
-    display: flex;
+    justify-content: center;
+}
+
+#card-proper {
+    margin: auto;
+    height: 300px;
+    width: 600px;
+    
+}
+
+.my-info {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#card .info-text {
+    padding: 20px;
 }
