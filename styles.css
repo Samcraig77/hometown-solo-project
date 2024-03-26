@@ -27,6 +27,7 @@ body {
     
 }
 
+/*Hero section */
 .hero-section {
     display: flex;
     flex-direction: row;
@@ -57,7 +58,9 @@ object-fit: cover;
 border: 5px solid #727272;
 
 }
+
 /*Activities section*/
+
 .activities {
     display: flex;
     
@@ -87,6 +90,7 @@ border: 5px solid #727272;
 .activity-2 p {
     margin: auto;
 }
+
 .activity-1 img, .activity-2 img, .activity-3 img {
     width: 400px;
     height: 300px;
@@ -96,11 +100,10 @@ border: 5px solid #727272;
 }
 
 #photo-div {
-    display: flex;
     justify-items: center;
 }
 
-/*Guide card section--->*/
+/* Guide card section */
 
 .card {
     display: flex;
@@ -120,13 +123,13 @@ border: 5px solid #727272;
     
 }
 
-.my-info {
+#my-info {
     display: block;
     margin: auto;
     text-align: center;
     padding: 10px;
 }
 
-#card .info-text {
+.card #info-text {
     padding: 20px;
 }
