@@ -1,6 +1,7 @@
 
 :root {
-    --hero-font1: #2B633B;
+    --hero-font1: #395341;
+    --hero-background: antiquewhite;
     --activities-background: #343242;
     --activities-font1: antiquewhite;
     --card-section-background: papayawhip;
@@ -30,25 +31,26 @@ body {
 /*Hero section */
 .hero-section {
     display: flex;
-    flex-direction: row;
+    background-color: var(--hero-background);
+    margin: auto;
     justify-content: center;
-}
+}   
 
 .welcome-text {
-    margin: auto;
     padding: 20px;
     text-align: center;
+    margin: auto;
     
 }
 
 .hero-text hr {
-   border: 2px solid; 
+   border: 3px solid; 
 }
 
 .welcome-sub-text {
     padding: 40px;
-    margin: auto;
     text-align: center;
+    margin: auto;
 }
 
 .hero-photo {
@@ -63,13 +65,11 @@ border: 5px solid #727272;
 
 .activities {
     display: flex;
-    
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: var(--activities-background);
     color: var(--activities-font1);
+    margin: auto;
     padding: 30px;
-    margin-left: auto;
-    margin-right: auto;
     align-items: center;
     
     
@@ -82,25 +82,19 @@ border: 5px solid #727272;
 
 
 .activity-1, .activity-2 {
-    width: 33%;
-    border-right: 1px solid white;
-    padding-right: 20px;
+    border-right: 3px solid white;
 }
 
-.activity-2 p {
+.activities p {
+    padding: 10px;
     margin: auto;
 }
 
-.activity-1 img, .activity-2 img, .activity-3 img {
+.activities img {
     width: 400px;
     height: 300px;
     display: flex;
     margin: auto;
-    
-}
-
-#photo-div {
-    justify-items: center;
 }
 
 /* Guide card section */
@@ -110,7 +104,6 @@ border: 5px solid #727272;
 }
 
 #card-section {
-    display: flex;
     height: 500px;
     background-color: var(--card-section-background);
     justify-content: center;
@@ -124,7 +117,6 @@ border: 5px solid #727272;
 }
 
 #my-info {
-    display: block;
     margin: auto;
     text-align: center;
     padding: 10px;
