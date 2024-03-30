@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css" >
     <title>Hometown Solo Project</title>
 </head>
+
 <body>
     <div class="hero-section">
         <div class="hero-text">
@@ -16,7 +17,7 @@
             <h1 class="welcome-text">Welcome to Camano Island!</h1>
             <hr>
             <h2 class="welcome-sub-text">Come here to this evergreen destination to relax, dine, and explore!</h2>
-            <p class="welcome-sub-text">This small island has a big personality. With </p>
+            <h3 class="welcome-sub-text">This small island has a big personality. With numerous trails, restaurants and beaches, you'll never be bored here!</h3>
         </div>
 
         <div class="hero-photo">
@@ -25,24 +26,34 @@
     </div>
 
     <div  class="activities">
-        <div class="activity-1">
-            <div class="photo-div">
+
+        <div id="activity-1">
+            <div>
                 <img src="Cama-beach.jpg" alt="Cama Beach during the day" loading="lazy">
             </div>
-            <div>
-                <p>Come and see all our gread beaches! This wonderful island has numerous rocky and sandy beaches.</p>
+            <div class="activities-description">
+                <h1>BEACHES</h1>
+                <h3>Come and see all our great beaches! This wonderful island has numerous rocky and sandy beaches.</h3>
             </div>
         </div>
-        <div class="activity-2">
-            <div><p>Explore our many trails with deep green forests, views of Port Susan, Skagit Bay and the Saratoga Passage!</p></div>
-            <div id="photo-div"><img src="Elger-Bay-trail.jpg" alt="A hiking trail through a green forest" loading="lazy"></div>
+
+        <div id="activity-2">
+           <div class="activities-description"> 
+                <h1>TRAILS</h1>
+                <h3>Explore our many trails with deep green forests, views of Port Susan, Skagit Bay and the Saratoga Passage!</h3>
+            </div>
+            <div>
+                <img src="Elger-Bay-trail.jpg" alt="A hiking trail through a green forest" loading="lazy">
+            </div>
         </div>
-        <div class="activity-3">
-            <div id="photo-div">
+
+        <div id="activity-3">
+            <div>
                 <img src="Tapped-Public-House.jpg" alt="Your view as you order food from a restaurant" loading="lazy">
             </div>
-            <div>
-                <p>Grab a bite or a drink at one of the numerous top rated restaurants.</p>
+            <div class="activities-description">
+                <h1>FOOD</h1>
+                <h3>Grab a bite or a drink at one of the numerous top rated restaurants, there's something for everyone.</h3>
             </div>
         </div>
 
@@ -51,18 +62,19 @@
     <div id="card-section" class="card">
         <div id="card-proper" class="card">
             <div class="card">
-                <img src="-m1xgte.jpg" alt="A man smiling at the camera in a suit jacket">
-            <div id="my-info">
-                <div> 
-                    <h2 id="info-text">Your Guide</h2>
-                </div>
-                <div>
-                    <p id="info-text">"My earliest memories are of the forest and parks on this island. Add my obsession with 
+                <img src="-m1xgte.jpg" alt="Sam smiling at the camera">
+                <div id="my-info">
+                    <div> 
+                    <h1 id="info-text">Your Guide</h1>
+                    <h2>Sam Craig</h2>
+                    </div>
+                    <div>
+                    <h3 id="info-text">"My earliest memories are of the forest and parks on this island. Add my obsession with 
                     good food and I'll make sure you're always fed and never bored!"
-                    </p>
+                    </h3>
                 </div>
             </div>
-
+        </div>
     </div>
 </body>
 </html>

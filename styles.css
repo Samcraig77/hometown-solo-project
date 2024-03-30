@@ -7,24 +7,12 @@
     --card-section-background: papayawhip;
 }
 
-* {
-    margin: 0px;
-}
-
-
-/*Used to make divs stand out more: delete before submitting*/
-div {
- border: 1px solid red;   
-}
-
-
-
 body { 
-    min-width: 1300px;
+    min-width: 1400px;
     font-family: 'Dosis', sans-serif;
     background-color: #ECE9E9;
     color: var(--hero-font1);
-    
+    margin: 0px;
     
 }
 
@@ -33,10 +21,9 @@ body {
     display: flex;
     background-color: var(--hero-background);
     margin: auto;
-    justify-content: center;
 }   
 
-.welcome-text {
+.hero-text {
     padding: 20px;
     text-align: center;
     margin: auto;
@@ -55,39 +42,29 @@ body {
 
 .hero-photo {
 display: flex;
-height: 500px;
-object-fit: cover;
+height: 600px;
+object-fit: fill;
 border: 5px solid #727272;
-
 }
 
 /*Activities section*/
 
 .activities {
     display: flex;
-    justify-content: space-evenly;
+   justify-content: space-around;
+   align-content: center;
     background-color: var(--activities-background);
     color: var(--activities-font1);
-    margin: auto;
-    padding: 30px;
-    align-items: center;
-    
-    
 }
 
-.activities p {
-    text-align: center;
+#activity-2, #activity-3 {
+    border-left: 3px solid white;
+   
 }
 
-
-
-.activity-1, .activity-2 {
-    border-right: 3px solid white;
-}
-
-.activities p {
+.activities-description {
     padding: 10px;
-    margin: auto;
+    text-align: center;
 }
 
 .activities img {
@@ -101,6 +78,8 @@ border: 5px solid #727272;
 
 .card {
     display: flex;
+    border: 1px solid navy;
+    border-radius: 10px;
 }
 
 #card-section {
@@ -111,8 +90,9 @@ border: 5px solid #727272;
 
 #card-proper {
     margin: auto;
-    height: 300px;
-    width: 600px;
+    height: 400px;
+    width: 700px;
+    overflow: hidden;
     
 }
 
